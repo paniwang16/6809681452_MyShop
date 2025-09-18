@@ -17,28 +17,31 @@ header p {
 }
 /* navbar */
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 12px 60px;
-  background-color: #3d0303;
-  color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 60px;
+    background-color: #3d0303;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 .nav-links {
-  list-style: none;
-  display: flex;
-  gap: 30px;
-  margin: 0;
-  padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
 }
 .nav-links li a {
-  text-decoration: none;
-  color: white;
-  font-size: 16px;
-  transition: color 0.3s;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s;
 }
 .nav-links li a:hover {
-  color: #da8181;
+    color: #da8181;
 }
 
 .about {
@@ -75,7 +78,16 @@ header p {
 .products {
     padding: 50px;
     text-align: center;
-
+}
+.Category-Name h3 {
+    text-align: center;
+}
+.Category-Name a {
+    text-decoration: none;
+    color: black;
+}
+.Category-Name a:hover {
+    color: #141bad;
 }
 .product-grid {
     display: grid;
@@ -208,11 +220,7 @@ header p {
     justify-items: center;
     justify-content: center;
     gap: 40px;
-}
-.product-card {
-  padding: 15px;
-  text-align: center;
-  background: #fff;
+    padding: 50px;
 }
 
 .Muay-Tools-Header {
@@ -232,6 +240,7 @@ header p {
     justify-items: center;
     justify-content: center;
     gap: 40px;
+    padding: 50px;
 }
 
 /* 2ndcategory */
